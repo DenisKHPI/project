@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container container_header"><a class="logo" href="#home">LogotypE</a>
+          <div class="header__ul"><a class="header__link" href="#Menu1">Menu1</a><a class="header__link" href="#Menu2">Menu2</a><a class="header__link" href="#Menu3">Menu3</a><a class="header__link" href="#Menu4">Menu4</a><a class="header__link" href="#Menu5">Menu5</a><a class="btn btn__s btn__s_o" href="#">Sign In</a><a class="btn btn__s btn__s_w" href="#" onclick="show('block')">Log in</a></div><a class="header__burger_active header__burger" href="#" id="header__burger"><span class="header__span"></span></a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="filter">
+          <div id="filter" onclick="show('none')"></div>
+        </section>
+        <section class="instagram">
+          <div class="container container_f">
+            <div class="instagram__main" data-aos="zoom-in" data-aos-duration="2000">
+              <h2 class="title_instagram">Get dozens of new customers from <span class="title_instagram_y">Instagram </span> today!</h2>
+              <p class="instagram_text">With a new service to promote an account without authorization and blocking</p><a class="btn btn__m btn__m_w btn_instagram" href="#">Try it free</a>
+              <div class="instagram__icon">
+                <div class="icon icon_shield"><img src="images/presentation.svg" alt=""><span>Reliable</span></div>
+                <div class="icon icon_safety"><img src="images/presentation.svg" alt=""><span>Safely</span></div>
+                <div class="icon icon_graph"><img src="images/presentation.svg" alt=""><span>Effectively</span></div>
+                <div class="icon icon_presentation"><img src="images/presentation.svg" alt=""><span>Conveniently</span></div>
+                <div class="icon icon_password"><img src="images/presentation.svg" alt=""><span>Does not require a password</span></div>
+              </div>
+            </div>
+            <div class="instagram__img" data-aos="zoom-in" data-aos-duration="3000">
+              <div class="img__instagram"></div>
+            </div>
+          </div>
+        </section>
+        <section class="choose">
+          <div class="container container_choose">
+            <h3 class="title__section title_choose">Why people choose us?</h3>
+            <div class="choose__item" data-aos="zoom-in" data-aos-duration="2000"> 
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">01. Цены</div>
+                  <div class="item__text">Берем цену дешевле чем блогеры в десятки раз</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">02. Автоматически</div>
+                  <div class="item__text">У нас автоматическая раскрутка - в пару кликов</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">03. Легкость панели</div>
+                  <div class="item__text">Наша панель удобнее, чем у наших конкурентов, трудностей никаких не будет;</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">04. Результат</div>
+                  <div class="item__text">Мы вам гарантируем то, что результатом Вы будете довольны!</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">05. Пункт</div>
+                  <div class="item__text">Берем цену дешевле чем блогеры в десятки раз</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__top">
+                  <div class="item__img"><img class="item__img_b" src="images/item.svg" alt=""><img class="item__img_n" src="images/item_h.svg" alt=""></div>
+                  <div class="item__point"></div>
+                </div>
+                <div class="item__main">
+                  <div class="item__title">06. Пункт</div>
+                  <div class="item__text">Берем цену дешевле чем блогеры в десятки раз</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service">
+          <div class="container container_service">
+            <h3 class="title__section title_service">How does the service work?</h3>
+            <div class="service__main" data-aos="fade-up" data-aos-duration="2000">
+              <div class="service__content">
+                <div class="box"><img class="box__img" src="images/serch.svg" alt="serch">
+                  <div class="box__text">
+                    <h3 class="box__title">Customize your customer search by:</h3>
+                    <ul class="box__ul">
+                      <li class="box__li">Geo (city, shopping center, cafe)</li>
+                      <li class="box__li">Hashtag</li>
+                      <li class="box__li">To competitors</li>
+                      <li class="box__li">Active competitor subscribers who just li.box__like or comment</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box"><img class="box__img" src="images/target.svg" alt="">
+                  <div class="box__text">
+                    <h3 class="box__title">Use filters:</h3>
+                    <ul class="box__ul"> 
+                      <li class="box__li">Do not show accounts that sell something</li>
+                      <li class="box__li">Exclude bots</li>
+                      <li class="box__li">Only from your city</li>
+                      <li class="box__li">Subscriptions no more than 500 We receive customers who are ready to subscribe and buy from you</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box"><img class="box__img" src="images/user.svg" alt="user">
+                  <div class="box__text">
+                    <h3 class="box__title">Follow a couple of steps to attract the attention of the</h3>
+                    <ul class="box__ul"> 
+                      <li class="box__li">Subscribe to it</li>
+                      <li class="box__li">li.box__like on his last posts</li>
+                      <li class="box__li">Write a discount message</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="service__content">
+                <div class="box"><img class="box__img" src="images/strategy.svg" alt="strategy">
+                  <div class="box__text">
+                    <h3 class="box__title">Sell:</h3>
+                    <ul class="box__ul"> 
+                      <li class="box__li">Did the customer subscribe?</li>
+                      <li class="box__li">Offer a discount on your first purchase</li>
+                      <li class="box__li">Got a question in the comments?</li>
+                      <li class="box__li">Answer there as soon as possible</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="box"><img class="box__img_main" src="images/box__img_main.svg" alt="girl"></div>
+              </div>
+            </div>
+            <div class="service__other" data-aos="fade-down" data-aos-duration="2000">
+              <div class="service__box">
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Without authorization</div>
+                  <div class="box__text_other">For the service does not need Instagram account authorization, which makes the promotion absolutely safe!</div>
+                </div>
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Safely</div>
+                  <div class="box__text_other">No automatic interaction with people, which means that now you can not be afraid of locks!</div>
+                </div>
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Hot customers</div>
+                  <div class="box__text_other">The hottest customers, do not wait for someone to appear on the network, contact those who are onli.box__line right now!</div>
+                </div>
+              </div>
+              <div class="service__box">
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Without authorization</div>
+                  <div class="box__text_other">For the service does not need Instagram account authorization, which makes the promotion absolutely safe!</div>
+                </div>
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Safely</div>
+                  <div class="box__text_other">No automatic interaction with people, which means that now you can not be afraid of locks!</div>
+                </div>
+                <div class="box_other"><img class="box__img_other" src="images/other.svg" alt="img">
+                  <div class="box__title_other">Hot customers</div>
+                  <div class="box__text_other">The hottest customers, do not wait for someone to appear on the network, contact those who are onli.box__line right now!</div>
+                </div>
+              </div>
+            </div><a class="btn btn__m btn__m_p" href="#">Try it free</a>
+          </div>
+        </section>
+        <section class="who">
+          <div class="container container_who">
+            <h3 class="title__section title_who">Who should use the service?</h3>
+            <div class="who__main">
+              <div class="who__base" data-aos="fade-right" data-aos-duration="2000">
+                <div class="entrepreneurs">
+                  <div class="entrepreneurs__title">For entrepreneurs</div>
+                  <div class="entrepreneurs__text">For entrepreneurs this is a new opportunity to get new customers on Instagram cheaply without any risks!</div>
+                </div>
+                <div class="entrepreneurs">
+                  <div class="entrepreneurs__title">For entrepreneurs</div>
+                  <div class="entrepreneurs__text">For entrepreneurs this is a new opportunity to get new customers on Instagram cheaply without any risks!</div>
+                </div>
+                <div class="entrepreneurs">
+                  <div class="entrepreneurs__title">For entrepreneurs</div>
+                  <div class="entrepreneurs__text">For entrepreneurs this is a new opportunity to get new customers on Instagram cheaply without any risks!</div>
+                </div>
+              </div><img class="who__img" src="images/girls.svg" alt="girls" data-aos="fade-left" data-aos-duration="2000">
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container container_fdc">
+            <div class="title__section title_reviews">Our customer reviews</div>
+            <div class="reviews__main">
+              <div class="reviews__form" data-aos="fade-left" data-aos-duration="2000">
+                <div class="form__title">Lorem Ipsum is simply dummy</div>
+                <div class="form__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <form class="form" action="#">
+                  <label for="name" id="name"></label>
+                  <input class="form__name" type="text" placeholder="Name" id="name">
+                  <textarea class="form__textarea" name="" cols="30" rows="10" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "></textarea>
+                  <input class="form__submit btn btn__m btn__m_p" type="submit" value="Submit">
+                </form>
+              </div>
+              <div class="reviews__slider swiper-container" data-aos="fade-right" data-aos-duration="2000">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since    </div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                    <div class="slider__reviews"><img class="slider__img" src="images/avatar.jpg" alt="avatar">
+                      <div class="slider__main">
+                        <div class="slider__title">Екатерина Романова</div>
+                        <div class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-nav">
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="for-you" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="container container_f">
+            <div class="for-you__main">
+              <h3 class="title_for-you">For you, 3 days of using the service for free!</h3>
+              <h4 class="for-you__title">Start getting hot customers now!</h4>
+              <p class="for-you__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+              <ul class="box__ul box__ul_for-you">
+                <li class="box__li">Sign up</li>
+                <li class="box__li">Customize</li>
+                <li class="box__li">Get customers</li>
+              </ul><a class="btn btn__m btn__m_p" href="#">Try it free</a>
+            </div>
+            <div class="for-you__img"></div>
+          </div>
+        </section>
+        <section class="log-in" id="log-in">
+          <div class="container">
+            <div class="log-in__title">Log in</div>
+            <div class="log-in__text">Fill in all the fields of the form and click the Login button to access the panel</div>
+            <div class="log-in__container-a"><a class="log-in__a log-in__a-active" href="#">Log In</a><a class="log-in__a" href="#">Sign Up</a></div>
+            <div class="log-in__form">
+              <form action="#">
+                <input class="log-in__input" type="text" placeholder="Enter login or email">
+                <input class="log-in__input" type="password" placeholder="Enter password">
+                <div class="log-in__submit">
+                  <input type="submit " placeholder="zzz"><span>Forgot password?</span>
+                </div>
+              </form>
+            </div>
+            <div class="log-in__social"> 
+              <div class="log-in__title_social">Social Login</div>
+              <div class="log-in__container"><a class="log-in__a_social" href="https://www.google.com/">Google</a><a class="log-in__a_social" href="https://www.facebook.com/">Facebook</a><a class="log-in__a_social" href="https://www.instagram.com/">Instagram</a></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/countdown-init.js"></script>
+    <script src="js/libs/libs.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
